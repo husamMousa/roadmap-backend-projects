@@ -11,11 +11,11 @@ Project idea from [roadmap.sh](https://roadmap.sh/projects/task-tracker).
 ## Installation
 
 ```bash
-git clone <your-repo-url>
-cd task-tracker
+git clone https://github.com/husamMousa/roadmap-backend-projects.git
+cd roadmap-backend-projects/cli-task-tracker
 ```
 
-On Windows, `task-cli.bat` lets you run `task-cli` directly from the project folder. Otherwise use `php task-cli.php`.
+Run commands with `php task-cli.php <command>`. The examples below write `task-cli` as shorthand for `php task-cli.php`.
 
 ## Usage
 
