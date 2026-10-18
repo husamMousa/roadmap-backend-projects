@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+# Lets you run "tmdb-app ..." instead of "php tmdb-app.php ...".
+# "$(dirname "$0")" is the folder this file lives in; "$@" passes every argument along.
+exec php "$(dirname "$0")/tmdb-app.php" "$@"
