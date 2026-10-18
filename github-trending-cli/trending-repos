@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+# Lets you run "trending-repos ..." instead of "php trending-repos.php ...".
+# "$(dirname "$0")" is the folder this file lives in; "$@" passes every argument along.
+exec php "$(dirname "$0")/trending-repos.php" "$@"
